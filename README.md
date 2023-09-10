@@ -20,6 +20,14 @@ Before you begin, ensure you have met the following requirements:
 
 ## Getting Started
 
+# Docker Compose Setup
+
+1. Build and start the Docker containers:
+
+   ```bash
+   docker-compose up -d
+
+
 ### Django Setup
 
 1. Clone this repository:
@@ -49,13 +57,6 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    python manage.py runserver
    
-# Docker Compose Setup
-
-1. Build and start the Docker containers:
-
-   ```bash
-   docker-compose up -d
-
 ## Accessing the API &  Swagger Documentation
 
 You can access the API at the following endpoint:
